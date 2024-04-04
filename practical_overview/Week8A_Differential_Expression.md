@@ -138,21 +138,21 @@ There are four tabs at the top of the screen - Parallel Coordinates, MA plot, MD
 
 
 
-2. The elbow plot to the right hand side of the screen displays the percentage of variance that is displayed in the MDS plot. If 1 is 100% it would mean that 100% of biological variation is described with dimension 1. In our sample, 55% of biological variance is found in dimension 1, and 15% in dimension 2. Therefore around 70% of biological variation is being displayed in the MDS plot above. 
+2. The elbow plot to the right-hand side of the screen displays the percentage of variance displayed in the MDS plot. If 1 is 100%, it would mean that 100% of biological variation is described with dimension 1. In our sample, 55% of biological variance is found in dimension 1 and 15% in dimension 2. Therefore, around 70% of biological variation is displayed in the MDS plot above. 
  ![DEGUST](../assets/img/elbowplot.png)
 
 
 
-3. The volcano plot below shows the -log10FDR against the logFC.  The FDR (false discovery rate) is similar to an adj. p.value. There is a random chance that a proportion of the thousands of genes in your experiment are significantly differential expressed, the FDR corrects for this. The lower the FDR value, the better; however, the graph displays **-log10FDR**. This means that the smaller the FDR value is, the larger its associated -log10FDR value. This makes it easier to visualise on a graph. Simply put, the higher the value of the -log10 FDR, the greater the confidence in the log FC is not random. The larger the logFC the greater the difference is between control and condition. So most genes that we are interested in are significant, differentially expressed that are coloured in red.
+3. The volcano plot below shows the -log10FDR against the logFC.  The FDR (false discovery rate) is similar to an adj. p.value. There is a random chance that a proportion of the thousands of genes in your experiment are significantly differential expressed; the FDR corrects for this. The lower the FDR value, the better; however, the graph displays **-log10FDR**. This means that the smaller the FDR value is, the larger its associated -log10FDR value. This makes it easier to visualise on a graph. Simply put, the higher the value of the -log10 FDR, the greater the confidence in the log FC is not random. The larger the logFC the greater the difference is between control and condition. So, most genes that we are interested in are significant, differentially expressed, and are coloured in red.
 
 ![DEGUST](../assets/img/volcanoplot.png)
 
-Every dot represents an isoform (not a gene). This is because we are using the transcriptome as the reference and each transcript name begins with "ENST". An example of a transcript that has a negative log FC due to being highly expressed in the cerebellum, relative to the `control` heart sample. It codes for a transcript of the gene [ZIC1](http://asia.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000152977;r=3:147393422-147510293) which is a member of the transcription factor C2H2-type zinc finger family that are key during development. has been documented in medulloblastoma, a childhood brain tumour.  
+Every dot represents an isoform (not a gene). This is because we use the transcriptome as the reference, and each transcript name begins with "ENST". An example of a transcript that has a negative log FC due to being highly expressed in the control cerebellum relative to the experimental heart sample. It codes for a transcript of the gene [ZIC1](http://asia.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000152977;r=3:147393422-147510293), which is a member of the transcription factor C2H2-type zinc finger family that are key during development. has been documented in medulloblastoma, a childhood brain tumour.  
 
 ![DEGUST](../assets/img/degust_volc.png)
 
 
-4. The parallel coordinates tab is fairly self-explanatory. Each line represents an isoform; each line represents the logFC. All isoforms in the control have an absLogFC of 0 as it is the baseline, where expression is relative to. The most useful section for this is the drag and drop to highlight transcripts of interest that are then visualised in the heatmap below and in the CSV below. 
+4. The parallel coordinates tab is fairly self-explanatory. Each line represents an isoform; each line represents the logFC. All isoforms in the control have an absLogFC of 0 as it is the baseline, where expression is relative to. The most useful section for this is the drag-and-drop to highlight transcripts of interest, which are then visualised in the heatmap below and in the CSV below. 
 
 For example, I select the top ~100 isoforms and then download the csv. This csv will be used for further gene ontology visualisations (see Gene Ontology section). 
 
