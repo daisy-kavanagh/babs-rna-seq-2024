@@ -143,7 +143,7 @@ There are four tabs at the top of the screen - Parallel Coordinates, MA plot, MD
 
 
 
-3. The volcano plot shows on the shows the -log10FDR against the logFC.  The higher the value of the -log10 FDR, the greater the confidence in the log FC is not random. The larger the logFC 
+3. The volcano plot below shows the -log10FDR against the logFC.  The FDR (false discovery rate) is similar to an adj. p.value. There is a random chance that a proportion of the thousands of genes in your experiment are significantly differential expressed, the FDR corrects for this. The lower the FDR value, the better; however, the graph displays **-log10FDR**. This means that the smaller the FDR value is, the larger its associated -log10FDR value. This makes it easier to visualise on a graph. Simply put, the higher the value of the -log10 FDR, the greater the confidence in the log FC is not random. The larger the logFC the greater the difference is between control and condition. So most genes that we are interested in are significant, differentially expressed that are coloured in red.
 
 ![DEGUST](../assets/img/volcanoplot.png)
 
