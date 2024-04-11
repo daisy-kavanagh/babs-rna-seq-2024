@@ -130,7 +130,7 @@ On the LHS is a small box containing the following:
 - **FC relative to** - control of which condition is the *baseline*.
 
 
-There are four tabs at the top of the screen - Parallel Coordinates, MA plot, MDS plot and Volcano plot. There is too many user configured settings and output graphs  to explain all, so we are going to skip the MA plot. So, I will highlight the most pertinent graphs. For the practical writeup, you need to investigate any disease specific patterns and research the role of the most DEGs idenitfied in these figures.
+There are four tabs at the top of the screen - Parallel Coordinates, MA plot, MDS plot and Volcano plot. There is too many user configured settings and output graphs. I will highlight the most pertinent graphs. For the practical writeup, you need to investigate any disease specific patterns and research the role of the most DEGs idenitfied in these figures.
 
 
 1. The MDS in MDS plot stands for multidimension scaling. It is a method to visualise the similarity or dissimilarity between each sample. We would expect the samples to cluster based on tissue. This is because we would expect the cerebellum samples to be more similar than heart samples. In our MDS plot, SRR306844chr1_chr3 clustering distinctly from all other samples. If not clustering well, it is an indicator of the contaminated sample or confounding factor not taken into account. 
@@ -142,7 +142,6 @@ There are four tabs at the top of the screen - Parallel Coordinates, MA plot, MD
  ![DEGUST](../assets/img/elbowplot.png)
 
 
-
 3. The volcano plot below shows the -log10FDR against the logFC.  The FDR (false discovery rate) is similar to an adj. p.value. There is a random chance that a proportion of the thousands of genes in your experiment are significantly differential expressed; the FDR corrects for this. The lower the FDR value, the better; however, the graph displays **-log10FDR**. This means that the smaller the FDR value is, the larger its associated -log10FDR value. This makes it easier to visualise on a graph. Simply put, the higher the value of the -log10 FDR, the greater the confidence in the log FC is not random. The larger the logFC the greater the difference is between control and condition. So, most genes that we are interested in are significant, differentially expressed, and are coloured in red.
 
 ![DEGUST](../assets/img/volcanoplot.png)
@@ -152,7 +151,7 @@ Every dot represents an isoform (not a gene). This is because we use the transcr
 ![DEGUST](../assets/img/degust_volc.png)
 
 
-4. The parallel coordinates tab is fairly self-explanatory. Each line represents an isoform; each line represents the logFC. All isoforms in the control have an absLogFC of 0 as it is the baseline, where expression is relative to. The most useful section for this is the drag-and-drop to highlight transcripts of interest, which are then visualised in the heatmap below and in the CSV below. 
+4. The parallel coordinates tab is fairly self-explanatory. Each line represents an isoform; each line represents the logFC. All isoforms in the control have an absLogFC of 0 as it is the baseline, where expression is relative to. The most useful section for this is the drag-and-drop highlighting transcripts of interest, which are then visualised in the heatmap below and in the CSV below. 
 
 For example, I select the top ~100 isoforms and then download the csv. This csv will be used for further gene ontology visualisations (see Gene Ontology section). 
 
@@ -161,6 +160,11 @@ These isoforms are the most upregulated genes in the cerebellum relative to the 
 
 For your own analysis, you can choose more/less isoforms and upregulated or downregulated. 
 
+
+5. The MA plot stands for **M** the logFC and **A** the average expression of an isoform on the y-axis. The significantly differentially expressed isoforms are the red dots and the blue dots are insignificant. However, this metric is relative to one another. The average expression seen on y-axis gives you context to the volume of the change. The higher the average expression does not mean a greater biological impact. Genes such as transcription factors have a lower average expression but control cellular identity.
+
+ ![DEGUST](../assets/img/ma.png)
+ 
 
 ![DEGUST](../assets/img/degust_screenshot4.png)
 
