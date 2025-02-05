@@ -11,7 +11,7 @@ Please find your [groups](https://daisy-kavanagh.github.io/babs-rna-seq-2025/key
 
 Each group is paired up with a [dataset](https://daisy-kavanagh.github.io/babs-rna-seq-2025/practical_overview/sample_datasets/) eg. Group 1 will be doing neuroblastomas. 
 
-Each group is going to have a different task for rewriting the abstract of their paper.
+Each group is going to have a different task for rewriting the abstract of their paper. Compare your creations with those in your group. How did it change? Is the information still accurate and clear?
 
 Group 1 - Use Different Chatbots and Compare Outputs
 - Generate abstracts using multiple AI models (e.g., ChatGPT, DeepSeek, Bard, Claude) and compare their structure, clarity, and accuracy.
