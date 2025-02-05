@@ -5,8 +5,8 @@ title: Course Structure
 
 | **Component**               | **HPW** | **Weeks** | **Time**  | **Day** | **Location**          |
 | --------------------------- | ------- | --------- | --------- | ------- | --------------------- |
-| Practical (Computer labs)   | 2       | 1-5,7-10  | 1400-1600 | Thu     |         E26 Lab 11-12 |
-| Tutorial (Computer Labs) | 2       | 1-5,7-10  | 1000-1200 | Fri     | CATS 11-12       |
+| Practical (Computer labs)   | 2       | 1-5,7-10  | 1400-1600 | Thu     | E26 / Lab 10       |
+| Tutorial (Computer Labs) | 2       | 1-5,7-10  | 1000-1200 | Fri     | Matthews 230      |
 
 
 
