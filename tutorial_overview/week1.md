@@ -17,13 +17,13 @@ Group 1 - Use Different Chatbots and Compare Outputs
 - Generate abstracts using multiple AI models (e.g., ChatGPT, DeepSeek, Bard, Claude) and compare their structure, clarity, and accuracy.
 
 Group 2 - Generate Abstracts at Different Complexity Levels
-- Ask ChatGPT to rewrite the abstract for different audiences: a 5-year-old, a primary schooler, a secondary school student, an undergraduate, and a professor.
+- Use AI to rewrite the abstract for different audiences: a 5-year-old, a primary schooler, a secondary school student, an undergraduate, and a professor.
 
 Group 3 - Rewrite the abstract in a different format
-- Instruct ChatGPT to rewrite the abstract in different styles—e.g., a news article, a twitter thread, a sit down interview, a youtube video script
+- Use AI to rewrite the abstract in different styles—e.g., a news article, a twitter thread, a sit down interview, a youtube video script
 
 Group 4 - Rewrite abstract with different bias
-- Ask chatGPT to rewrite abstract from different perspectives - an antivaccination organization, the CDC, a pharmaceutical company, a scientist who oversells their results
+- Use AI to rewrite abstract from different perspectives - an antivaccination organization, the CDC, a pharmaceutical company, a scientist who oversells their results
 
 Group 5 - Telephone game
 - One person uses AI to translate the abstract to a different language and sends it to the next person in the group. It is then translated again and again until finally back to english. How much of the information is retained?
