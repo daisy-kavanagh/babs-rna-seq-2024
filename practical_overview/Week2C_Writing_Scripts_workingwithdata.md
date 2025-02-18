@@ -52,7 +52,7 @@ You should see something like this:
 You can immediately start typing and add the contents of the file. \
 The commands down the bottom show you different things you can do. The ^ symbol means you hold control when you push the letter. \
 To save the file we push ^o for WRITE OUT. This will then allow us to confirm or change the name of the file. Push enter to confirm. \
-To exit nano we push ^x for EXIT. \
+To exit nano we push ^x for EXIT.
 
 The three core fundamentals to navigate and use `nano` is: 
 
