@@ -22,14 +22,14 @@ Group 2 - Generate Abstracts at Different Complexity Levels
 Group 3 - Rewrite the abstract in a different format
 - Use AI to rewrite the abstract in different styles—e.g., a news article, a twitter thread, a sit down interview, a youtube video script
 
-Group 4 - Rewrite abstract with different bias
-- Use AI to rewrite abstract from different perspectives - an antivaccination organization, the CDC, a pharmaceutical company, a scientist who oversells their results
+Group 4 - Rewrite abstract with different word limits
+- Ask AI to generate abstracts of different word limits (e.g., 50, 100, and 200, 500, 1000 words) and analyze which version conveys the most essential information.
 
 Group 5 - Telephone game
 - One person uses AI to translate the abstract to a different language and sends it to the next person in the group. It is then translated again and again until finally back to english. How much of the information is retained?
 
-Group 6 - Rewrite abstract with different word limits
-- Ask AI to generate abstracts of different word limits (e.g., 50, 100, and 200, 500, 1000 words) and analyze which version conveys the most essential information.
+Group 6 - Rewrite abstract with different bias
+- Use AI to rewrite abstract from different perspectives - an antivaccination organization, the CDC, a pharmaceutical company, a scientist who oversells their results
 
 Group 7 - Rewrite the Abstract from the Perspective of Public Figures
 - Have ChatGPT rewrite the abstract as if it were written by a politician, comedian, social media influencer, or historical figure.
