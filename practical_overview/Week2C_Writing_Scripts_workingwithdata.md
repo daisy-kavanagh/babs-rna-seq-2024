@@ -46,8 +46,8 @@ Let’s change our working directory to `data` using `cd`, then run `nano` to cr
     
 
 You should see something like this:
-![Vim Command](../assets/img/vim_command.png)
-![Vim Open Doc](../assets/img/new_vimreadme.png)
+![Open Nano](../assets/img/open_nano.png)
+![Nano Cmds](../assets/img/nano_cmds.png)
 
 You can immediately start typing and add the contents of the file. \
 The commands down the bottom show you different things you can do. The ^ symbol means you hold control when you push the letter. \
