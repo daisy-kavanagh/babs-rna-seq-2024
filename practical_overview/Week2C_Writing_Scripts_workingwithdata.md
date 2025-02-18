@@ -18,7 +18,7 @@ Writing Scripts and Submitting Jobs to Katana
 
 > **Objectives**
 > 
-> *   Use the `vim` text editor to modify text files.
+> *   Use the `nano` text editor to modify text files.
 >     
 > *   Write a basic shell script.
 > 
@@ -35,56 +35,44 @@ Writing files
 
 We’ve been able to do a lot of work with files that already exist, but what if we want to write our own files? We’re not going to type in a FASTA file, but we’ll see as we go through other tutorials, there are a lot of reasons we’ll want to write a file, or edit an existing file.
 
-To add text to files, we’re going to use a text editor called vim. We’re going to create a file to take notes about what we’ve been doing with the data files in `data`.
+To add text to files, we’re going to use a text editor called nano. We’re going to create a file to take notes about what we’ve been doing with the data files in `data`.
 
 This is good practice when working in bioinformatics. We can create a file called `README.txt` that describes the data files in the directory or documents how the files in that directory were generated. As the name suggests, it’s a file that we or others should read to understand the information in that directory.
 
-Let’s change our working directory to `data` using `cd`, then run `vim` to create a file called `README.txt`:
+Let’s change our working directory to `data` using `cd`, then run `nano` to create a file called `README.txt`:
 
     $ cd data
-    $ vim README.txt
+    $ nano README.txt
     
 
 You should see something like this:
 ![Vim Command](../assets/img/vim_command.png)
 ![Vim Open Doc](../assets/img/new_vimreadme.png)
 
+You can immediately start typing and add the contents of the file. \
+The commands down the bottom show you different things you can do. The ^ symbol means you hold control when you push the letter. \
+To save the file we push ^o for WRITE OUT. This will then allow us to confirm or change the name of the file. Push enter to confirm. \
+To exit nano we push ^x for EXIT. \
 
-To save and exit out of vim, write `:wq`, this means *write* and *quit* vim as a text edit.
+The three core fundamentals to navigate and use `nano` is: 
 
-
-
-The three core fundamentals to navigate and use `vim` is: 
-
-1) **Open** a file using `vim script.sh`
+1) **Open** a file using `nano script.sh`
    
-2) **Write** into the file by:
-   
-    - Writing `I` to switch to insert mode.
-
-    - Writing text or pasting text.
+2) **Write** into the file by typing
      
-3) **Saving** by:
+3) **Save and Exit** by:
    
-   - Using *hot-keys* to `Ctrl+[`.
+   - ^o WRITE OUT
      
-   - Write write and quit `:wq`
-
-![Vim Open Doc](../assets/img/vimsave.png)
-
-
-Once you have exited vim. We will get you more familiar with **vim** and its basic commands by writing the command `vimtutor`. 
-
-    $ vimtutor
-
+   - ^x EXIT
 
 
 > Which Editor?
 > -------------
 > 
-> When we say, “`vim` is a text editor. On Unix systems (such as Linux and Mac OS X), many programmers use [Emacs](https://www.gnu.org/software/emacs/) or [Vim](https://www.vim.org/) (both of which require more time to learn), or a graphical editor such as [Gedit](https://projects.gnome.org/gedit/). On Windows, you may wish to use [Notepad++](https://notepad-plus-plus.org/). Windows also has a built-in editor called `notepad` that can be run from the command line in the same way as `nano` for the purposes of this lesson. I recommended using [vscode](https://vscode.dev/) online in our first practical.
+> `nano` is one example of a text editor. On Unix systems (such as Linux and Mac OS X), many programmers use [Emacs](https://www.gnu.org/software/emacs/) or [Vim](https://www.vim.org/) (both of which require more time to learn), or a graphical editor such as [Gedit](https://projects.gnome.org/gedit/). On Windows, you may wish to use [Notepad++](https://notepad-plus-plus.org/). Windows also has a built-in editor called `notepad` that can be run from the command line in the same way as `nano` for the purposes of this lesson. 
 
-Now you’ve written a file. You can take a look at it with `less` or `cat`, or open it up again and edit it with `vim`.
+Now you’ve written a file. You can take a look at it with `less` or `cat`, or open it up again and edit it with `nano`.
 
 > Exercise
 > --------
@@ -130,7 +118,7 @@ One thing we will commonly want to do with sequencing results is pull out bad re
 
 We’re going to create a new file to put this command in. We’ll call it `bad-reads-script.sh`. The `sh` isn’t required, but using that extension tells us that it’s a shell script.
 
-    $ vim bad-reads-script.sh
+    $ nano bad-reads-script.sh
     
 
 Bad reads have a lot of N’s, so we’re going to look for `NNNNNNNNNN` with `grep`. We want the whole FASTQ record, so we’re also going to get the one line above the sequence and the two lines below. We also want to look in all the files that end with `.fastq`, so we’re going to use the `*` wildcard.
@@ -261,19 +249,6 @@ e.g ***On my Mac computer**** scp zID@katana.restech.unsw.edu.au:"somewhere/nice
 
 
 
-> Extension Task
-> ----------------
-> If you want to make your script writing and submitting more seamless between your console and ssh. Depending on your machine, you can ssh into your machine via VSCode and submit directly.
-> The how-to steps as follows:
-> 
-> 1) Download VSCode for your machine: https://code.visualstudio.com/
->    
-> 2) Install the remote-ssh extension from the marketplace (https://code.visualstudio.com/docs/remote/ssh)
->    
-> 3) Connect to katana through VSCode using their login
->    
-> 4) Set-up the 'code' shortcut if necessary for opening files.
->    
 
 
 
