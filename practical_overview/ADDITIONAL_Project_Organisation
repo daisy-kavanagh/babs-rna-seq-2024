@@ -25,7 +25,7 @@ ADDITIONAL: Project Organization
 >     
 > *   Explain what types of files should go in your `docs`, `data`, and `results` directories.
 >     
-> *   Use the `history` command and a text editor like `vim` to document your work on your project.
+> *   Use the `history` command and a text editor like `nano` to document your work on your project.
 >     
 
 Getting your project started
