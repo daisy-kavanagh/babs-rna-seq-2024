@@ -108,19 +108,8 @@ Usually in your other courses, you would write notes in Microsoft Word but that 
 Please use a code editor like **VS Codes** to write your notes and code. This can be used by either installing [VSCodes](https://code.visualstudio.com) on your computer or use the [online interface](https://vscode.dev) if you have less space available, or the installation is not working. 
 
 ### Optional Cheatsheet for you to fill out
-If you would like to fill out a cheatsheet for every command that you use and learn, please click  
-<a href="https://github.com/daisy-kavanagh/babs-rna-seq-2025/raw/gh-pages/metadatafiles/Unix_Cheatsheet.docx" id="downloadLink">here</a>.  
+If you would like to fill out a cheatsheet for every command that you use and learn, please access the file on teams.
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    let link = document.createElement("a");
-    link.href = "https://github.com/daisy-kavanagh/babs-rna-seq-2025/raw/gh-pages/metadatafiles/Unix_Cheatsheet.docx";
-    link.download = "Unix_Cheatsheet.docx";  
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  });
-</script>
 
 
 
