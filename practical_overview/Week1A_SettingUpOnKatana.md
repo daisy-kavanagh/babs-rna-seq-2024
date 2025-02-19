@@ -24,6 +24,8 @@ In this practical, we are going to work how many "real" bioinformaticians actual
 
 Katana is a shared computational cluster located on campus at UNSW that has been designed to provide easy access to computational resources for groups working with non-sensitive data. It contains over 6,000 CPU cores, 8 GPU compute nodes (V100 and A100), and 6Pb of disk storage. 
 
+![HPC_architecture](../assets/img/simple_HPC.png)
+
 For many of you, this is your first time using UNIX. As with all bioinformatics, the best way to learn is by trial and error. 
 
 ## Setting up the UNSW VPN
