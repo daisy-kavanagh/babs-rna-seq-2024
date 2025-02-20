@@ -38,7 +38,7 @@ A _shell_ is a computer program that presents a command line interface which all
 
 There are many reasons to learn about the shell:
 
-*   Bioinformatics team can only be used through command line, or have more features compared to the GUI.
+*   Most bioinformatics pipelines can only be used through command line, or have more features compared to the GUI.
 *   Used for boring, repetitive tasks.
 *   Ensures error-free output.
 *   More reproducible output. 
