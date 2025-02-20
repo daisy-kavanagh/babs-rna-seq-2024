@@ -25,7 +25,7 @@ Prac/Tutorial sessions will be delivered synchronously as a combination of onlin
 | 7 | 03-Apr                                            | Using Kallisto for Pseudoalignment                     | 04-Apr                            | GOOD FRIDAY |  |
 | 8 | 10-Apr                                            | Identifying Differentially Expressed Genes             | 11-Apr                            | Ramaciotti Tour |  |
 | 9 | 17-Apr                                            | Work on prac report                                    | 18-Apr                            | Sequencing Technology (JB) |  |
-| 10 | 24-Apr                                            | Work on prac report                                    | 25-Apr                            | Work on prac report | Wk 10: Prac report 24/4 |
+| 10 | 24-Apr                                            | Work on prac report                                    | 25-Apr                            |  | Wk 10: Prac report 24/4 |
 | 11 | 01-May                                            | STUDY WEEK                                             | 02-Apr                            | STUDY WEEK |  |
 
 
@@ -37,7 +37,7 @@ Attendance in practicals & tutorials is compulsory unless otherwise announced or
 | ----------------------------------- | ------ | -------------------- | ----------- |
 | 1\. RNA-seq Dataset Talk            | 10%    | Friday 07 Mar        | Week 3      |
 | 2\. Genomics Quiz                   | 20%    | Thursday 20 Mar 1400 | Week 5      |
-| 3\. Bioinformatics Practical Report | 40%    | Friday 24 April 1400 | Week 10     |
+| 3\. Bioinformatics Practical Report | 40%    | Thursday 24 April 1400 | Week 10     |
 | 4\. Final Exam                      | 30%    | See Exam Timetable   |             |
 
 
