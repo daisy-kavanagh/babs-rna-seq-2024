@@ -13,6 +13,8 @@ Each group is paired up with a [dataset](https://daisy-kavanagh.github.io/babs-r
 
 Each group is going to have a different task for rewriting the abstract of their paper. Compare your creations with those in your group. How did it change? Is the information still accurate and clear?
 
+You can upload your abstracts to these [google docs](https://drive.google.com/drive/folders/1VVwzUdXg5to9bSncBJJ-C41g-ixGw-lf?usp=drive_link) so we can discuss at the end.
+
 Group 1 - Use Different Chatbots and Compare Outputs
 - Generate abstracts using multiple AI models (e.g., ChatGPT, DeepSeek, Bard, Claude) and compare their structure, clarity, and accuracy.
 
