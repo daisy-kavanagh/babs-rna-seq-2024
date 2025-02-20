@@ -22,7 +22,7 @@ Welcome to the Bioinformatics Practical Handbook for BABS3291 Genes, Genome and 
 | 11 |       3 | chr4_chr7    | Liver Alcoholic          | GSE155907   | Dong             | Jeong           |
 | 12 |       3 | chr8_chr12   | Liver Alcoholic          | GSE155907   | Ayriexzhel       | Manalo Antes    |
 | 13 |       3 | chr13_chr16  | Liver Alcoholic          | GSE155907   | Calvin           | Urng            |
-| 14 |       3 | chr17_chr22  | Liver Alcoholic          | GSE155907   | Fred             | Bennet          |
+| 14 |       3 | chr17_chr22  | Liver Alcoholic          | GSE155907   | Fred             | Bennett          |
 | 15 |       4 | chr1_chr3    | Influenza                | SRP398335   | Angus            | Chan            |
 | 16 |       4 | chr4_chr7    | Influenza                | SRP398335   | Lilla            | Irwin           |
 | 17 |       4 | chr8_chr12   | Influenza                | SRP398335   | Radha            | Medakker        |
