@@ -37,19 +37,20 @@ Welcome to the Bioinformatics Practical Handbook for BABS3291 Genes, Genome and 
 | 26 |       6 | chr4_chr7    | COVID-19                 | GSE152418   | Shay             | Hirani          |
 | 27 |       6 | chr8_chr12   | COVID-19                 | GSE152418   | Anushree         | Lavendra        |
 | 28 |       6 | chr13_chr16  | COVID-19                 | GSE152418   | Gabrielle        | Michael         |
-| 29 |       7 | chr1_chr3    | Lupus                    | GSE72420    | Lachie           | Chan            |
-| 30 |       7 | chr4_chr7    | Lupus                    | GSE72420    | Sara             | Greenberg       |
-| 31 |       7 | chr8_chr12   | Lupus                    | GSE72420    | Grace            | Luo             |
-| 32 |       7 | chr13_chr16  | Lupus                    | GSE72420    | Yazan            | Shobaki         |
-| 33 |       8 | chr1_chr3    | Lymphoma                 | GSE159808   | Samadhi          | Alugolla        |
-| 34 |       8 | chr4_chr7    | Lymphoma                 | GSE159808   | Byron            | Escudero        |
-| 35 |       8 | chr8_chr12   | Lymphoma                 | GSE159808   | Alysha Kate Raya | Samson          |
-| 36 |       8 | chr13_chr16  | Lymphoma                 | GSE159808   | Daniel           | Yoo             |
-| 37 |       9 | chr1_chr3    | Myelodysplastic syndrome | GSE65349    | Kerry            | Zhao            |
-| 38 |       9 | chr4_chr7    | Myelodysplastic syndrome | GSE65349    | Ethan            | Chan            |
-| 39 |       9 | chr8_chr12   | Myelodysplastic syndrome | GSE65349    | Konstantina      | Kordos          |
-| 40 |       9 | chr13_chr16  | Myelodysplastic syndrome | GSE65349    | Ella             | Maughan         |
-| 41 |       9 | chr17_chr22  | Myelodysplastic syndrome | GSE65349    | Leon             | Smith           |
+| 29 |       6 | chr17_chr_22 | COVID-19                 | GSE152418   | Megan            | Shee            |
+| 30 |       7 | chr1_chr3    | Lupus                    | GSE72420    | Lachie           | Chan            |
+| 31 |       7 | chr4_chr7    | Lupus                    | GSE72420    | Sara             | Greenberg       |
+| 32 |       7 | chr8_chr12   | Lupus                    | GSE72420    | Grace            | Luo             |
+| 33 |       7 | chr13_chr16  | Lupus                    | GSE72420    | Yazan            | Shobaki         |
+| 34 |       8 | chr1_chr3    | Lymphoma                 | GSE159808   | Samadhi          | Alugolla        |
+| 35 |       8 | chr4_chr7    | Lymphoma                 | GSE159808   | Byron            | Escudero        |
+| 36 |       8 | chr8_chr12   | Lymphoma                 | GSE159808   | Alysha Kate Raya | Samson          |
+| 37 |       8 | chr13_chr16  | Lymphoma                 | GSE159808   | Daniel           | Yoo             |
+| 38 |       9 | chr1_chr3    | Myelodysplastic syndrome | GSE65349    | Kerry            | Zhao            |
+| 39 |       9 | chr4_chr7    | Myelodysplastic syndrome | GSE65349    | Ethan            | Chan            |
+| 40 |       9 | chr8_chr12   | Myelodysplastic syndrome | GSE65349    | Konstantina      | Kordos          |
+| 41 |       9 | chr13_chr16  | Myelodysplastic syndrome | GSE65349    | Ella             | Maughan         |
+| 42 |       9 | chr17_chr22  | Myelodysplastic syndrome | GSE65349    | Leon             | Smith           |
 
 
 
