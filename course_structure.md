@@ -25,7 +25,7 @@ Prac/Tutorial sessions will be delivered synchronously as a combination of onlin
 | 7 | 03-Apr                                            | Using Kallisto for Pseudoalignment                     | 04-Apr                            | GOOD FRIDAY |  |
 | 8 | 10-Apr                                            | Identifying Differentially Expressed Genes             | 11-Apr                            | Ramaciotti Tour |  |
 | 9 | 17-Apr                                            | Work on prac report                                    | 18-Apr                            | Sequencing Technology (JB) |  |
-| 10 | 24-Apr                                            | Work on prac report                                    | 25-Apr                            |  | Wk 10: Prac report 24/4 |
+| 10 | 24-Apr                                            | Prac Report Due                                    | 25-Apr                            |  | Wk 10: Prac report 24/4 |
 | 11 | 01-May                                            | STUDY WEEK                                             | 02-Apr                            | STUDY WEEK |  |
 
 
