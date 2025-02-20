@@ -16,7 +16,7 @@ Each group is going to have a different task for rewriting the abstract of their
 You can upload your abstracts to these [google docs](https://drive.google.com/drive/folders/1VVwzUdXg5to9bSncBJJ-C41g-ixGw-lf?usp=drive_link) so we can discuss at the end.
 
 Group 1 - Use Different Chatbots and Compare Outputs
-- Generate abstracts using multiple AI models (e.g., ChatGPT, DeepSeek, Bard, Claude) and compare their structure, clarity, and accuracy.
+- Generate abstracts using multiple AI models (e.g., ChatGPT, Bard, Claude) and compare their structure, clarity, and accuracy.
 
 Group 2 - Generate Abstracts at Different Complexity Levels
 - Use AI to rewrite the abstract for different audiences: a 5-year-old, a primary schooler, a secondary school student, an undergraduate, and a professor.
