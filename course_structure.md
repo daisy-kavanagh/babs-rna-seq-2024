@@ -5,7 +5,7 @@ title: Course Structure
 
 | **Component**               | **HPW** | **Weeks** | **Time**  | **Day** | **Location**          |
 | --------------------------- | ------- | --------- | --------- | ------- | --------------------- |
-| Practical (Computer labs)   | 2       | 1-5,7-10  | 1400-1600 | Thu     | Law 275      |
+| Practical (Computer labs)   | 2       | 1-5,7-10  | 1400-1600 | Thu     | BABS LAB10      |
 | Tutorial (Computer Labs) | 2       | 1-5,7-10  | 1000-1200 | Fri     | Matthews 230      |
 
 
@@ -14,7 +14,7 @@ title: Course Structure
 
 Prac/Tutorial sessions will be delivered synchronously as a combination of online and face-to-face live sessions with support from lecturers and demonstrators. Presentations will be recorded for reference
 
-| Week | Practical (2 hour) - THU 2PM-4PM - Law 275 | Description | Tutorial (2 hour) - FRI 10-12 PM  Matthews 230     | Description | Assignment and week of submission |
+| Week | Practical (2 hour) - THU 2PM-4PM - BABS LAB10 | Description | Tutorial (2 hour) - FRI 10-12 PM  Matthews 230     | Description | Assignment and week of submission |
 | ---- | ------------------------------------------------- | ------------ | ------------------------------------------------------ | ----- | --------------------------------- |
 | 1 | 20-Feb                                            | Intro to Unix and High Performance Computing on Katana | 21-Feb                            | AI Workshop |  |
 | 2 | 27-Feb                                            | Exploring Online Genetic Resources - SRA and Ensembl   | 28-Feb                            | Q&A Prac and Talk Prep |  |
