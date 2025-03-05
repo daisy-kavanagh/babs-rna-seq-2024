@@ -7,7 +7,7 @@ Week 1 - Generative AI Workshop
 =====================
 
 **Activity 1**
-Please find your [groups](https://daisy-kavanagh.github.io/babs-rna-seq-2025/key_info/) again .
+Please find your [groups](https://daisy-kavanagh.github.io/babs-rna-seq-2025/roadmap/) again .
 
 Each group is paired up with a [dataset](https://daisy-kavanagh.github.io/babs-rna-seq-2025/practical_overview/sample_datasets/) eg. Group 1 will be doing neuroblastomas. 
 
