@@ -20,6 +20,7 @@ author: Daisy Kavanagh
 ###############################################
 
 navbar-links:
+  Prac Report Roadmap: "roadmap"
   Course Structure: "course_structure"
   Practical W1-5:
     - Sample Datasets: "practical_overview/sample_datasets"
