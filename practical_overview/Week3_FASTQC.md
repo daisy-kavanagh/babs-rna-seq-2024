@@ -65,7 +65,7 @@ To download the data, please:
 
 1) request an interactive session using qsub. Notice where you are right now using `pwd`.
 
-         $ qsub -I   
+         $ qsub -I -l select=1:ncpus=1:mem=4gb,walltime=2:00:00
 
 2)  Use `mkdir` to create a folder to store all your projects. 
  
@@ -81,14 +81,14 @@ You can use the `-p` option for `mkdir`. This option allows `mkdir` to create th
          
 
 5) copy your dataset from the **/srv/scratch/babs3291/** to this directory as below.
-
+For demonstration purposes I will be using GSE30352 and chromosomes 1 to 3, but please make sure to use your own dataset ID and chromosomes.
 
 > Important for your unique download 
 > --------------------------------------------
 > 
->     $ GSE="GSE30352"
->     $ CHROMOSOME="chr1_chr3" 
->     $ scp /srv/scratch/babs3291/${GSE}/*${CHROMOSOME}*fastq.gz .
+>     $ DATASET="GSE30352" #REPLACE WITH YOUR OWN DATASET ID
+>     $ CHROMOSOME="chr1_chr3" #REPLACE WITH YOUR ASSIGNED CHROMOSOMES
+>     $ scp /srv/scratch/babs3291/${DATASET}/*${CHROMOSOME}*fastq.gz .
 >     
 
 
