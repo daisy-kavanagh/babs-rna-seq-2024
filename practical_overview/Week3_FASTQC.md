@@ -39,7 +39,9 @@ Starting with data
 
 Ramaciotti Centre for Genomics and other sequencing centers will usually provide you will a link for data download. Today we will be working with publicly available sequencing data. However, we are using data that has been dowloaded onto the cluster beforehand, and split by chromosome to make it less computationally demanding to run through the entire pipeline. 
 
-You will be utilising one of the datasets from: https://theheking.github.io/babs-rna-seq-2024/practical_overview/sample_datasets/
+You will be utilising one of the datasets from [Sample Datasets](https://daisy-kavanagh.github.io/babs-rna-seq-2025/practical_overview/sample_datasets/)
+You can find which chromosomes you are assigned at [Key Information](https://daisy-kavanagh.github.io/babs-rna-seq-2025/key_info/)
+
 For each dataset, there is a control and disease condition. I am using the dataset below and analysing the differential expression between cerebellum and heart human datasets. 
 
 |               | Description                                                                   | Website GSE                                                                                                                | Paper                                                       | Paper Website                                                                              | Control Sample | Test Sample |
