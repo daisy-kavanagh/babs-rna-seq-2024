@@ -90,7 +90,7 @@ For demonstration purposes I will be using GSE30352 and chromosomes 1 to 3, but 
 > 
 >     $ DATASET="GSE30352" #REPLACE WITH YOUR OWN DATASET ID
 >     $ CHROMOSOME="chr1_chr3" #REPLACE WITH YOUR ASSIGNED CHROMOSOMES
->     $ scp /srv/scratch/babs3291/${DATASET}/*${CHROMOSOME}*fastq.gz .
+>     $ cp /srv/scratch/babs3291/${DATASET}/*${CHROMOSOME}*fastq.gz .
 >     
 
 
