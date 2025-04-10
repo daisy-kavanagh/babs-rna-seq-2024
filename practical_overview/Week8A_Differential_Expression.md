@@ -36,9 +36,9 @@ So what does the count data actually represent? The count data used for differen
 Usually you would sum all the transcript expression for a given gene. This would change a transcript x count matrix to form a gene x count matrix. To make the pipeline simple- we will *not* be doing this. 
 
 
-Counts and CPM
+Counts
 ---------------
-Kallisto counts the number of reads that align to one transcript. This is the *raw count*, however normalisation is needed to make accurate comparisons of gene expression between samples. Normalisation is used to account for variabilities between or within *raw counts* due to technical differences such as read depth. The default in DEGUST is *Counts per million (CPM)*. CPM accounts for sequencing depth. This is not the best normalisation method for differential expression analysis between samples. However, we are not going to learn R in this course so have to work with what we have. 
+Kallisto counts the number of reads that align to one transcript. This is the *raw count*, however normalisation is needed to make accurate comparisons of gene expression between samples. Normalisation is used to account for variabilities between or within *raw counts* due to technical differences such as read depth. 
 
 Using DEGUST
 -------------
