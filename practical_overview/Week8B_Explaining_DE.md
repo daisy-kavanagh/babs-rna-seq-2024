@@ -37,7 +37,7 @@ This is performed by:
      
   2. Normalisation accounts for variabilities between or within raw counts due to technical differences such as read depth. CPM (Counts Per Million) are obtained by dividing counts by the number of counts in the entire sample and multiplying the results by a million. This is useful for just getting a simple expression value of a gene / transcript within a sample. However for comparisons between genes, when we are calculating P-values of genes that are differentially expressed, we need more advanced methods such as median of ratios or trimmed mean of m values (TMM). Degust uses the TMM method by default. 
   
-  3. Fold change is the change normalized expression between samples. Log Fold change is the logarithm of the fold change calculated. A positive fold change indicates an increase in expression, and a negative fold change indicates a decrease in expression between the control (heart) and test (brain).
+  3. Fold change is the change normalized expression between samples. Log Fold change is the logarithm of the fold change calculated. A positive fold change indicates an increase in expression, and a negative fold change indicates a decrease in expression between the control (brain) and test (heart).
   In my experiment, I expect the isoforms that regulate neuronal-related processes to be upregulated and the isoforms that regulate cardiac processes to be downregulated.
 
 
