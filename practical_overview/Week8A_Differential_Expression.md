@@ -205,11 +205,6 @@ Gene ontology is a tool used to understand the molecular function, biological pr
 
 
 
-        > NB Choosing the background set of geneIDs is key to getting accurate results. This is because the frequency of genes annotated to a GO term is relative to the entire background set. [Gene Ontology Website](http://geneontology.org/docs/go-enrichment-analysis/) explains this articulately:
-        
-        **"For example, if the input list contains 10 genes and the enrichment is done for a biological process in S. cerevisiae whose background set contains 6442 genes, then if 5 out of the 10 input genes are annotated to the GO term: DNA repair, then the sample frequency for DNA repair will be 5/10. If are 100 genes annotated to DNA repair in all of the S. cerevisiae genome, then the background frequency will be 100/6442."**
-
-
 
 Please explore all of the different figures. Depending on your samples and your biological question, the results could be interesting or not... 
 
