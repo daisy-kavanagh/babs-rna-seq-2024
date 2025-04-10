@@ -23,7 +23,7 @@ title: Week 8B - Theory of Differential gene expression (DGE) analysis
 
 ![](../assets/img/expressed_genes.png)
 
-The schema above represents what Kallisto has calculated (except with transcripts). To summarise, the number of reads that map to a transcript in every sample across replicates in control (heart) and test (brain) groups. 
+The schema above represents what Kallisto has calculated (except with transcripts). To summarise, the number of reads that map to a transcript in every sample across replicates in control (brain) and test (heart) groups. 
 However, we need to calculate the comparisons between the two groups and determine which transcripts change significantly between conditions e.g. Gene A and Gene B, or not, e.g. Gene C.
 
 This process is differential expression analysis. What is calculated at each stage includes:
