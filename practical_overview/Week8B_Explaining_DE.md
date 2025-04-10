@@ -72,9 +72,6 @@ The main factors often considered during normalization are:
 
 ### Common normalization methods
 
-For DEGUST, we had to use CPM. This is not a good method for between-sample comparisons. Manual analysis with R programming is superior to using DEGUST; however, it takes more time and experience to get to grips with!  
-
-Several common normalization methods exist to account for these differences:
 
 
 | Normalization method                                                                                                          | Description                                                                                                                  | Accounted factors                    | Recommendations for use                                                                                                 |
