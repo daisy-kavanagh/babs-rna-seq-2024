@@ -63,7 +63,7 @@ Log onto katana. Change directory into the location that contains your aligned k
       
 This file contains the counts of one sample. You will have to form a count matrix table for input into DEGUST.  
 
-Please download this [script](https://github.com/theheking/babs-rna-seq-2024/blob/gh-pages/metadatafiles/merge_abundance_files.sh) using `wget`. In the main folder that you have your kallisto results.
+Please download this [script](https://github.com/daisy-kavanagh/babs-rna-seq-2025/blob/gh-pages/metadatafiles/merge_abundance_files.sh) using `wget`. In the main folder that you have your kallisto results.
 
         $ cd /srv/scratch/zID/babs3291/trimmed_fastq
         $ wget https://github.com/theheking/babs-rna-seq-2024/raw/gh-pages/metadatafiles/merge_abundance_files.sh 
