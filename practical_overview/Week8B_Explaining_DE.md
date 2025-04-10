@@ -27,17 +27,17 @@ The schema above represents what Kallisto has calculated (except with transcript
 However, we need to calculate the comparisons between the two groups and determine which transcripts change significantly between conditions e.g. Gene A and Gene B, or not, e.g. Gene C.
 
 This process is differential expression analysis. What is calculated at each stage includes:
-1. Reads 
-2. CPM - counts per million
+1. Read counting
+2. Normalization
 3. Log fold change, p-value, FDR (false discovery rate)
 
 
 This is performed by:
   1. Kallisto counts the number of reads that align to one transcript. This is the raw count. However, normalisation is needed to accurately compare gene expression between samples.
      
-  2. Normalisation accounts for variabilities between or within raw counts due to technical differences such as read depth. The default in DEGUST is Counts per million (CPM). CPM accounts for sequencing depth. There are better normalisation methods for differential expression analysis between samples. However, we will not learn R in this course, so we must work with what we have. CPM (Counts Per Million) are obtained by dividing counts by the number of counts in the entire sample and multiplying the results by a million
+  2. Normalisation accounts for variabilities between or within raw counts due to technical differences such as read depth. CPM (Counts Per Million) are obtained by dividing counts by the number of counts in the entire sample and multiplying the results by a million. This is useful for just getting a simple expression value of a gene / transcript within a sample. However for comparisons between genes, when we are calculating P-values of genes that are differentially expressed, we need more advanced methods such as median of ratios or trimmed mean of m values (TMM). Degust uses the TMM method by default. 
   
-  3. Fold change is the change in CPM between conditions. Log Fold change is the logarithm of the fold change calculated. A positive fold change indicates an increase in expression, and a negative fold change indicates a decrease in expression between the control (heart) and test (brain).
+  3. Fold change is the change normalized expression between samples. Log Fold change is the logarithm of the fold change calculated. A positive fold change indicates an increase in expression, and a negative fold change indicates a decrease in expression between the control (heart) and test (brain).
   In my experiment, I expect the isoforms that regulate neuronal-related processes to be upregulated and the isoforms that regulate cardiac processes to be downregulated.
 
 
