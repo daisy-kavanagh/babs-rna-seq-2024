@@ -121,13 +121,13 @@ a) the magnitude of the change is the same but in opposite directions
 b) it is challenging to make a plot that shows 7 and 0.14 
 
  ![](../assets/img/norm_before.png)
-*Figure by Daisy Kavanagh*
+
 
 
 After log transformation, the skew of the data has been removed. As it is now symmetrical, changes of the same magnitude differ only by sign. In fact any base can be used for the log to achieve this, but the standard in RNA-seq is Log2, as it is most easy to interpret. A log2FC of 1 represents a doubling of the counts
 
  ![](../assets/img/norm_after.png)
-*Figure by Daisy Kavanagh*
+
 
 
 When we do this across every gene for every sample comparison we end up having a shift from the histogram on the LHS to the RHS distribution.
