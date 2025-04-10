@@ -66,11 +66,11 @@ In addition to examining how well the samples/replicates cluster together, there
 
 Understanding in Context to Gene Ontology Graphs
 ==========================================
-The gene ontology graphs represent biological processes upregulated in the test (cerebellum) compared to the control (heart). 
+The gene ontology graphs represent biological processes upregulated in the test (heart) compared to the control (cerebellum). 
 The differentially expressed genes you identified using the parallel coordinates graph are included.
 Previously in week 9, I selected the top 100 or so isoforms for input into my GEO analysis. 
-Again in my experiment, I expect the isoforms that regulate neuronal-related processes to be upregulated.
-These neuronal processes would be reflected in the GO terms enriched in my Manhattan plot outputted by GO: Profiler.
+Again in my experiment, I expect the isoforms that regulate cardiac-related processes to be upregulated.
+These cardiac processes would be reflected in the GO terms enriched in my Manhattan plot outputted by GO: Profiler.
 
 
 The other acronyms of database found on the x-axis of the manhatten plot are different, complementary databases or resources of molecular function:  
