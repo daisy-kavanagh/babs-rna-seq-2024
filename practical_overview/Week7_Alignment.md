@@ -337,7 +337,7 @@ If you have paired-end reads. **Hint: check the string provided as the second pa
           infiles="${base}*trimmed.fastq.gz"
           kallisto quant \
            --threads=8 \
-           --index=/srv/scratch/zID/transcriptome_Homo_sapiens_GRCh38 \
+           --index=/srv/scratch/zID/kallisto_human_ref/transcriptome_Homo_sapiens_GRCh38 \
            --output-dir=${outdir} \
            --gtf=/srv/scratch/zID/kallisto_human_ref/Homo_sapiens.GRCh38.109.gtf ${infiles}
 
