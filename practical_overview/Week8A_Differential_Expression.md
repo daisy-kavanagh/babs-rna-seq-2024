@@ -66,7 +66,7 @@ This file contains the counts of one sample. You will have to form a count matri
 Please download this [script](https://github.com/daisy-kavanagh/babs-rna-seq-2025/blob/gh-pages/metadatafiles/merge_abundance_files.sh) using `wget`. In the main folder that you have your kallisto results.
 
         $ cd /srv/scratch/zID/babs3291/trimmed_fastq
-        $ wget https://github.com/theheking/babs-rna-seq-2024/raw/gh-pages/metadatafiles/merge_abundance_files.sh 
+        $ wget https://github.com/daisy-kavanagh/babs-rna-seq-2025/raw/gh-pages/metadatafiles/merge_abundance_files.sh 
         $ bash merge_abundance_files.sh
         This scripts is to concatenate all abundance tsv to form count matrix table
         ***Please be in the main directory which contains /samplename/abundance.tsv***
