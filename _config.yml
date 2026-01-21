@@ -322,5 +322,5 @@ plugins:
 # 2fc73a3a967e97599c9763d05e564189
 # Example for a project site
 title: BABS3291
-baseurl: "/babs-rna-seq-2025"  # Match the repository name
+baseurl: "/babs-rna-seq-2026"  # Match the repository name
 url: "https://daisy-kavanagh.github.io"
