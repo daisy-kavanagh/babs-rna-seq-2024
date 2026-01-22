@@ -6,51 +6,50 @@ title: Key Infomation
 Welcome to the Bioinformatics Practical Handbook for BABS3291 Genes, Genome and Evolution. The material in this handbook is designed to help guide you through the practical. \
 
 
-|    |   Group | Chromosome   | Research Topic           | Accession   | First name       | Last name       |
-|---:|--------:|:-------------|:-------------------------|:------------|:-----------------|:----------------|
-|  0 |       1 | chr1_chr3    | Neuroblastoma            | GSE202634   | Gauri            | Abeysinghe      |
-|  1 |       1 | chr4_chr7    | Neuroblastoma            | GSE202634   | Toby             | Forrest         |
-|  2 |       1 | chr8_chr12   | Neuroblastoma            | GSE202634   | Christopher      | Issa            |
-|  3 |       1 | chr13_chr16  | Neuroblastoma            | GSE202634   | Matthew          | Robertson       |
-|  4 |       1 | chr17_chr22  | Neuroblastoma            | GSE202634   | Camilla          | Bragonzi        |
-|  5 |       2 | chr1_chr3    | Parkinson's Disease      | GSE125239   | Jonas            | Ajaka           |
-|  6 |       2 | chr4_chr7    | Parkinson's Disease      | GSE125239   | Kylie            | Cummings        |
-|  7 |       2 | chr8_chr12   | Parkinson's Disease      | GSE125239   | Longcan          | Guo             |
-|  8 |       2 | chr13_chr16  | Parkinson's Disease      | GSE125239   | Lyla             | Lokuge-Hayes    |
-|  9 |       2 | chr17_chr22  | Parkinson's Disease      | GSE125239   | Panayiota        | Nakis Gkourlias |
-| 10 |       3 | chr1_chr3    | Liver Alcoholic          | GSE155907   | Rhea             | Baweja          |
-| 11 |       3 | chr4_chr7    | Liver Alcoholic          | GSE155907   | Dong             | Jeong           |
-| 12 |       3 | chr8_chr12   | Liver Alcoholic          | GSE155907   | Ayriexzhel       | Manalo Antes    |
-| 13 |       3 | chr13_chr16  | Liver Alcoholic          | GSE155907   | Calvin           | Urng            |
-| 14 |       3 | chr17_chr22  | Liver Alcoholic          | GSE155907   | Fred             | Bennett          |
-| 15 |       4 | chr1_chr3    | Influenza                | SRP398335   | Angus            | Chan            |
-| 16 |       4 | chr4_chr7    | Influenza                | SRP398335   | Lilla            | Irwin           |
-| 17 |       4 | chr8_chr12   | Influenza                | SRP398335   | Radha            | Medakker        |
-| 18 |       4 | chr13_chr16  | Influenza                | SRP398335   | Kobe             | Tran            |
-| 19 |       4 | chr17_chr22  | Influenza                | SRP398335   | Iliana           | Catanglan       |
-| 20 |       5 | chr1_chr3    | Alzherimers and aging    | GSE104704   | Alessia          | Bavaro          |
-| 21 |       5 | chr4_chr7    | Alzherimers and aging    | GSE104704   | Brian            | Chang           |
-| 22 |       5 | chr8_chr12   | Alzherimers and aging    | GSE104704   | Dnyanda          | Kulkarni        |
-| 23 |       5 | chr13_chr16  | Alzherimers and aging    | GSE104704   | Dhruv            | Sharma          |
-| 24 |       5 | chr17_chr22  | Alzherimers and aging    | GSE104704   | Jessica          | Do              |
-| 25 |       6 | chr1_chr3    | COVID-19                 | GSE152418   | Jordan           | Akkari          |
-| 26 |       6 | chr4_chr7    | COVID-19                 | GSE152418   | Shay             | Hirani          |
-| 27 |       6 | chr8_chr12   | COVID-19                 | GSE152418   | Anushree         | Lavendra        |
-| 28 |       6 | chr13_chr16  | COVID-19                 | GSE152418   | Gabrielle        | Michael         |
-| 29 |       6 | chr17_chr_22 | COVID-19                 | GSE152418   | Megan            | Shee            |
-| 30 |       7 | chr1_chr3    | Lupus                    | GSE72420    | Lachie           | Chan            |
-| 31 |       7 | chr4_chr7    | Lupus                    | GSE72420    | Sara             | Greenberg       |
-| 32 |       7 | chr8_chr12   | Lupus                    | GSE72420    | Grace            | Luo             |
-| 33 |       7 | chr13_chr16  | Lupus                    | GSE72420    | Yazan            | Shobaki         |
-| 34 |       8 | chr1_chr3    | Lymphoma                 | GSE159808   | Samadhi          | Alugolla        |
-| 35 |       8 | chr4_chr7    | Lymphoma                 | GSE159808   | Byron            | Escudero        |
-| 36 |       8 | chr8_chr12   | Lymphoma                 | GSE159808   | Alysha Kate Raya | Samson          |
-| 37 |       8 | chr13_chr16  | Lymphoma                 | GSE159808   | Daniel           | Yoo             |
-| 38 |       9 | chr1_chr3    | Myelodysplastic syndrome | GSE65349    | Kerry            | Zhao            |
-| 39 |       9 | chr4_chr7    | Myelodysplastic syndrome | GSE65349    | Ethan            | Chan            |
-| 40 |       9 | chr8_chr12   | Myelodysplastic syndrome | GSE65349    | Konstantina      | Kordos          |
-| 41 |       9 | chr13_chr16  | Myelodysplastic syndrome | GSE65349    | Ella             | Maughan         |
-| 42 |       9 | chr17_chr22  | Myelodysplastic syndrome | GSE65349    | Leon             | Smith           |
+|    | Username   | First name   | Last name         | Email address                          |   Group | Research_Topic           | Accession   |
+|---:|:-----------|:-------------|:------------------|:---------------------------------------|--------:|:-------------------------|:------------|
+|  0 | z5589859   | Alysha       | Cannon            | a.cannon@student.unsw.edu.au           |       1 | Neuroblastoma            | GSE202634   |
+|  1 | z5418243   | Jason        | Duong             | jason.duong@student.unsw.edu.au        |       1 | Neuroblastoma            | GSE202634   |
+|  2 | z5748576   | Henley       | Mueller           | h.mueller@student.unsw.edu.au          |       1 | Neuroblastoma            | GSE202634   |
+|  3 | z5592866   | Jessie       | Zhuang            | jessie.zhuang1@student.unsw.edu.au     |       1 | Neuroblastoma            | GSE202634   |
+|  4 | z5361557   | Sohaib       | Ansar             | s.ansar@student.unsw.edu.au            |       2 | Parkinson's Disease      | GSE125239   |
+|  5 | z5487895   | Ethan        | Chan              | ethan.b.chan@student.unsw.edu.au       |       2 | Parkinson's Disease      | GSE125239   |
+|  6 | z5588722   | Summer       | Cunio-Scarborough | s.cunioscarborough@student.unsw.edu.au |       2 | Parkinson's Disease      | GSE125239   |
+|  7 | z5590120   | Dharani      | Sutharshan        | d.sutharshan@student.unsw.edu.au       |       2 | Parkinson's Disease      | GSE125239   |
+|  8 | z5590515   | Mia          | Tuckwell          | m.tuckwell@student.unsw.edu.au         |       2 | Parkinson's Disease      | GSE125239   |
+|  9 | z5481236   | Riva         | Burkett           | r.burkett@student.unsw.edu.au          |       3 | Liver Alcoholic          | GSE155907   |
+| 10 | z5524251   | Rafael       | Hutajulu          | r.hutajulu@student.unsw.edu.au         |       3 | Liver Alcoholic          | GSE155907   |
+| 11 | z5599325   | Romy         | Milch             | r.milch@student.unsw.edu.au            |       3 | Liver Alcoholic          | GSE155907   |
+| 12 | z5745828   | Jamie        | Trossman          | j.trossman@student.unsw.edu.au         |       3 | Liver Alcoholic          | GSE155907   |
+| 13 | z5748568   | Tessa        | Weiss             | tessa.weiss@student.unsw.edu.au        |       3 | Liver Alcoholic          | GSE155907   |
+| 14 | z5583438   | Urooj        | Ali               | urooj.ali@student.unsw.edu.au          |       4 | Influenza                | SRP398335   |
+| 15 | z5749471   | Edita        | Cosovic           | e.cosovic@student.unsw.edu.au          |       4 | Influenza                | SRP398335   |
+| 16 | z5574366   | Ringo        | Ngai              | r.ngai@student.unsw.edu.au             |       4 | Influenza                | SRP398335   |
+| 17 | z5593123   | Shifa        | Saeed             | shifa.saeed@student.unsw.edu.au        |       4 | Influenza                | SRP398335   |
+| 18 | z5593047   | Rushik       | Sriramoju         | r.sriramoju@student.unsw.edu.au        |       4 | Influenza                | SRP398335   |
+| 19 | z5589056   | Nova         | Biswas            | nova.biswas@student.unsw.edu.au        |       5 | Alzherimers and aging    | GSE104704   |
+| 20 | z5592291   | Saiyuri      | Govender          | saiyuri.govender@student.unsw.edu.au   |       5 | Alzherimers and aging    | GSE104704   |
+| 21 | z5747870   | Ella         | Pasersky          | e.pasersky@student.unsw.edu.au         |       5 | Alzherimers and aging    | GSE104704   |
+| 22 | z5478807   | Enzo         | Scarpellino       | l.scarpellino@student.unsw.edu.au      |       5 | Alzherimers and aging    | GSE104704   |
+| 23 | z5591706   | Namika       | Calder            | n.calder@student.unsw.edu.au           |       6 | COVID-19                 | GSE152418   |
+| 24 | z5480517   | Sara         | Kono              | s.kono@student.unsw.edu.au             |       6 | COVID-19                 | GSE152418   |
+| 25 | z5588655   | Precious     | Lazo              | p.lazo@student.unsw.edu.au             |       6 | COVID-19                 | GSE152418   |
+| 26 | z5312574   | Olivia       | Reeves            | o.reeves@student.unsw.edu.au           |       6 | COVID-19                 | GSE152418   |
+| 27 | z5510789   | Alya         | Balfaqeeh         | a.balfaqeeh@student.unsw.edu.au        |       7 | Lupus                    | GSE72420    |
+| 28 | z5478959   | Grace        | Baric             | g.baric@student.unsw.edu.au            |       7 | Lupus                    | GSE72420    |
+| 29 | z5584746   | Caithlyn     | Christianto       | c.christianto@student.unsw.edu.au      |       7 | Lupus                    | GSE72420    |
+| 30 | z5592667   | Kanish       | Shrestha          | kanish.shrestha@student.unsw.edu.au    |       7 | Lupus                    | GSE72420    |
+| 31 | z5587877   | Marieta      | Van Der Merwe     | m.van_der_merwe@student.unsw.edu.au    |       7 | Lupus                    | GSE72420    |
+| 32 | z5682064   | Austin       | Budiada           | a.budiada@student.unsw.edu.au          |       8 | Lymphoma                 | GSE159808   |
+| 33 | z5533298   | Jinyi        | He                | jinyi.he@student.unsw.edu.au           |       8 | Lymphoma                 | GSE159808   |
+| 34 | z5421680   | Emaan        | Khurram           | e.khurram@student.unsw.edu.au          |       8 | Lymphoma                 | GSE159808   |
+| 35 | z5365331   | Swetha       | Ravichandran      | s.ravichandran@student.unsw.edu.au     |       8 | Lymphoma                 | GSE159808   |
+| 36 | z5513402   | Ciara        | Trainor           | ciara.trainor@student.unsw.edu.au      |       8 | Lymphoma                 | GSE159808   |
+| 37 | z5583411   | Hanin        | Dhaher            | h.dhaher@student.unsw.edu.au           |       9 | Myelodysplastic syndrome | GSE65349    |
+| 38 | z5585939   | George       | Koura             | g.koura@student.unsw.edu.au            |       9 | Myelodysplastic syndrome | GSE65349    |
+| 39 | z5594725   | Pearl        | Nguyen            | minh_chau.nguyen@student.unsw.edu.au   |       9 | Myelodysplastic syndrome | GSE65349    |
+| 40 | z5481464   | Roja         | Sivapragasam      | r.sivapragasam@student.unsw.edu.au     |       9 | Myelodysplastic syndrome | GSE65349    |
+| 41 | z5588459   | Lucy         | Solina            | l.solina@student.unsw.edu.au           |       9 | Myelodysplastic syndrome | GSE65349    |
 
 
 
