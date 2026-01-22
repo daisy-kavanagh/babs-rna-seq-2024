@@ -6,7 +6,7 @@ title: Course Structure
 | **Component**               | **HPW** | **Weeks** | **Time**  | **Day** | **Location**          |
 | --------------------------- | ------- | --------- | --------- | ------- | --------------------- |
 | Practical (Computer labs)   | 2       | 1-5,7-10  | 1400-1600 | Thu     | BABS LAB10      |
-| Tutorial (Computer Labs) | 2       | 1-5,7-10  | 1000-1200 | Fri     | Matthews 230      |
+| Tutorial (Computer Labs) | 2       | 1-5,7-10  | 1200-1400 | Fri     | Matthews 214     |
 
 
 
@@ -16,17 +16,17 @@ Prac/Tutorial sessions will be delivered synchronously as a combination of onlin
 
 | Week | Practical (2 hour) - THU 2PM-4PM - BABS LAB10 | Description | Tutorial (2 hour) - FRI 10-12 PM  Matthews 230     | Description | Assignment and week of submission |
 | ---- | ------------------------------------------------- | ------------ | ------------------------------------------------------ | ----- | --------------------------------- |
-| 1 | 20-Feb                                            | Intro to Unix and High Performance Computing on Katana | 21-Feb                            | AI Workshop |  |
-| 2 | 27-Feb                                            | Exploring Online Genetic Resources - SRA and Ensembl   | 28-Feb                            | Q&A Prac and Talk Prep |  |
-| 3 | 06-Mar                                            | Using FASTQC for Data Quality report                   | 07-Mar                            |  TALKs | Wk 3: Assignment 1a-Talk |
-| 4 | 13-Mar                                            | Using Trimmomatic for Trimming and Filtering           | 14-Mar                             | Q&A Prac |  |
-| 5 | 20-Mar                                            | Assigment 1B Quiz and Prac revision                    | 21-Mar                            | The complexity of the genome (JM) | Wk 5: Assignment 1B 
-| 6 | 27-Mar                                            | FLEXIBILITY WEEK                                       | 28-Mar                            | FLEXIBILITY WEEK |  |
-| 7 | 03-Apr                                            | Using Kallisto for Pseudoalignment                     | 04-Apr                            | GOOD FRIDAY |  |
-| 8 | 10-Apr                                            | Identifying Differentially Expressed Genes             | 11-Apr                            | Ramaciotti Tour |  |
-| 9 | 17-Apr                                            | Work on prac report                                    | 18-Apr                            | Sequencing Technology (JB) |  |
-| 10 | 24-Apr                                            | Prac Report Due 24/4                                    | 25-Apr                            |  | Wk 10: Prac report 24/4 |
-| 11 | 01-May                                            | STUDY WEEK                                             | 02-Apr                            | STUDY WEEK |  |
+| 1 | 19-Feb                                            | Intro to Unix and High Performance Computing on Katana | 20-Feb                            | Generative AI Workshop |  |
+| 2 | 26-Feb                                            | Exploring Online Genetic Resources - SRA and Ensembl   | 27-Feb                            | Q&A Prac and Talk Prep |  |
+| 3 | 05-Mar                                            | Using FASTQC for Data Quality report                   | 06-Mar                            |  TALKs | Wk 3: Assignment 1a-Talk |
+| 4 | 12-Mar                                            | Using Trimmomatic for Trimming and Filtering           | 13-Mar                             | The complexity of the genome (JM) |  |
+| 5 | 19-Mar                                            | Using Kallisto for Pseudoalignment                   | 20-Mar                            | Assigment 1B Quiz and Prac revision  | Wk 5: Assignment 1B 
+| 6 | 26-Mar                                            | FLEXIBILITY WEEK                                       | 27-Mar                            | FLEXIBILITY WEEK |  |
+| 7 | 02-Apr                                            | Identifying Differentially Expressed Genes                     | 03-Apr                            | GOOD FRIDAY |  |
+| 8 | 9-Apr                                            |  Work on prac report            | 10-Apr                            | Work on prac report |  |
+| 9 | 16-Apr                                            | Work on prac report                                    | 17-Apr                            | Ramaciotti Tour & Sequencing Technology (JB) |  |
+| 10 | 23-Apr                                            | Prac Report Due 24/4                                    | 24-Apr                            |  | Wk 10: Prac report 24/4 |
+| 11 | 30-Apr                                            | STUDY WEEK                                             | 01-May                            | STUDY WEEK |  |
 
 
 Attendance in practicals & tutorials is compulsory unless otherwise announced or prior arrangements have been made.
