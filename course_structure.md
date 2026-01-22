@@ -14,7 +14,7 @@ title: Course Structure
 
 Prac/Tutorial sessions will be delivered synchronously as a combination of online and face-to-face live sessions with support from lecturers and demonstrators. Presentations will be recorded for reference
 
-| Week | Practical (2 hour) - THU 2PM-4PM - BABS LAB10 | Description | Tutorial (2 hour) - FRI 10-12 PM  Matthews 230     | Description | Assignment and week of submission |
+| Week | Practical (2 hour) - THU 2PM-4PM - BABS LAB10 | Description | Tutorial (2 hour) - FRI 12-2 PM  Matthews 214     | Description | Assignment and week of submission |
 | ---- | ------------------------------------------------- | ------------ | ------------------------------------------------------ | ----- | --------------------------------- |
 | 1 | 19-Feb                                            | Intro to Unix and High Performance Computing on Katana | 20-Feb                            | Generative AI Workshop |  |
 | 2 | 26-Feb                                            | Exploring Online Genetic Resources - SRA and Ensembl   | 27-Feb                            | Q&A Prac and Talk Prep |  |
