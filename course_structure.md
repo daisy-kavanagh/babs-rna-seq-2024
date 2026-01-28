@@ -35,9 +35,9 @@ Attendance in practicals & tutorials is compulsory unless otherwise announced or
 
 | Assessment Task                     | Weight | Date                 | Week Number |
 | ----------------------------------- | ------ | -------------------- | ----------- |
-| 1\. RNA-seq Dataset Talk            | 10%    | Friday 07 Mar        | Week 3      |
-| 2\. Genomics Quiz                   | 20%    | Thursday 20 Mar 1400 | Week 5      |
-| 3\. Bioinformatics Practical Report | 40%    | Thursday 24 April 1700 | Week 10     |
+| 1\. RNA-seq Dataset Talk            | 10%    | Friday 06 Mar        | Week 3      |
+| 2\. Genomics Quiz                   | 20%    | Friday 20 Mar 1200 | Week 5      |
+| 3\. Bioinformatics Practical Report | 40%    | Friday 24 April 1700 | Week 10     |
 | 4\. Final Exam                      | 30%    | See Exam Timetable   |             |
 
 
