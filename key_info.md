@@ -32,7 +32,7 @@ Welcome to the Bioinformatics Practical Handbook for BABS3291 Genes, Genome and 
 | 22 | z5592291   | Saiyuri      | Govender          |       5 | chr4_chr7 | Alzherimers and aging    | GSE104704   |
 | 23 | z5747870   | Ella         | Pasersky          |       5 | chr8_chr12 | Alzherimers and aging    | GSE104704   |
 | 24 | z5478807   | Enzo         | Scarpellino       |       5 | chr13_chr16 | Alzherimers and aging    | GSE104704   |
-| 25 | z5591102 | Jihang | Yu | 5 | Alzherimers and aging    | chr17_chr22 | GSE104704   |
+| 25 | z5591102 | Jihang | Yu | 5 | chr17_chr22    | Alzherimers and aging | GSE104704   |
 | 26 | z5591706   | Namika       | Calder            |       6 | chr1_chr3 | COVID-19                 | GSE152418   |
 | 27 | z5480517   | Sara         | Kono              |       6 | chr4_chr7 | COVID-19                 | GSE152418   |
 | 28 | z5588655   | Precious     | Lazo              |       6 | chr8_chr12 | COVID-19                 | GSE152418   |
