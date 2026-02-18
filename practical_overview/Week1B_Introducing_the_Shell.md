@@ -144,19 +144,8 @@ Anything with a “/” after it is a directory. Things with a “\*” after th
 No one can possibly learn all of these arguments, that’s what the manual page is for. You can (and should) refer to the manual page or other help files as needed.
 
 
-### Shortcut: Tab Completion
 
-Typing out file or directory names can waste a lot of time and it’s easy to make typing mistakes. Instead we can use tab complete as a shortcut. When you start typing out the name of a directory or file, then hit the Tab key, the shell will try to fill in the rest of the directory or file name.
 
-Return to your home directory:
-
-    $ cd
-    
-
-then enter:
-
-    $ cd she<tab>
-    
 
 > Basic Commands - Make a Directory Downloading Trial Data
 > ----------------------------------------------------------
@@ -175,6 +164,11 @@ It will take about 5 minutes to download the files.
 
 
 These are two files with `.fastq.gz` extensions. FASTQ is a format for storing information about sequencing reads and their quality. We will be learning more about FASTQ files in a later lesson.
+
+### Shortcut: Tab Completion
+
+Typing out file or directory names can waste a lot of time and it’s easy to make typing mistakes. Instead we can use tab complete as a shortcut. When you start typing out the name of a directory or file, then hit the Tab key, the shell will try to fill in the rest of the directory or file name.
+
 
 Using tab complete can be very helpful. However, it will only autocomplete a file or directory name if you’ve typed enough characters to provide a unique identifier for the file or directory you are trying to access.
 
