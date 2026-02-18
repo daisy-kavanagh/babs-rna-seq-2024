@@ -118,7 +118,7 @@ The command to change locations in our file system is `cd`, followed by a direct
 
 Let’s say we want to navigate to the directory we saw above. We can use the following command to get there:
 
-    $ cd 
+    $ cd /srv/scratch/<zID>
     
 - Please navigate to your scratch space above.
 
@@ -168,7 +168,7 @@ It will take about 5 minutes to download the files.
 **NB. Please make sure you are in your scratch directory **
 
     $   mkdir -p /srv/scratch/<zID>/data/
-    $   cd /srv/scratch/<zID>/data/
+    $   cd data
 
     $   wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/004/SRR2589044/SRR2589044_1.fastq.gz
     $   wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/004/SRR2589044/SRR2589044_2.fastq.gz
