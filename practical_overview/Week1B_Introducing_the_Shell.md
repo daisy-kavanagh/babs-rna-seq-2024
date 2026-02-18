@@ -116,7 +116,7 @@ On the Katana HPC, you will have two locations:
 
 The command to change locations in our file system is `cd`, followed by a directory name to change our working directory. `cd` stands for “change directory”.
 
-Let’s say we want to navigate to the directory we saw above. We can use the following command to get there:
+Let’s say we want to navigate to our scratch directory. We can use the following command to get there:
 
     $ cd /srv/scratch/<zID>
     
