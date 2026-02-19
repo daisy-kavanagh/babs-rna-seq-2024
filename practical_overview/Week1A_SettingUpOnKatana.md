@@ -47,19 +47,19 @@ You need to follow different methods of logging on depending on the operating sy
 ### Logging on from Mac OSX
 If you use a Mac, you simply need to open the **Terminal**. Terminal is generally found in the "Other" folder in Launchpad, or just search for "Terminal" with Spotlight. Once open, **Keep in Dock** for handy future access. You log on to the server using your **zID** and **zPass** and a program that lets you connect via a "secure shell (SSH)".
 
-To log on from Mac OSX (or a UNIX machine), open the Terminal and type at the prompt (replacing zID with your own **zID** ):
+To log on from Mac OSX (or a UNIX machine), open the Terminal and type at the prompt (replacing <zID> with your own **zID** ):
 
 ```
-$ ssh zID@katana.restech.unsw.edu.au
+$ ssh <zID>@katana.restech.unsw.edu.au
 ```
 
-Enter your **zPass** when prompted. (If it doesn't work, check that you replaced zID with your own **zID**!)
+Enter your **zPass** when prompted. (If it doesn't work, check that you replaced <zID> with your own **zID**!)
 
 ### Logging on from Windows OS
  - First, check if you have the Command Prompt or PowerShell program locally. If you do then open it up and login using the details below:
 
 ```
-$ ssh zID@katana.restech.unsw.edu.au
+$ ssh <zID>@katana.restech.unsw.edu.au
 ```
  
 - If you have Windows 10, a common error is that you might need to enable SSH using the tutorial. Please follow this tutorial. [How to Enable and Use Windows 10's Built-in SSH Commands.](https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/).
