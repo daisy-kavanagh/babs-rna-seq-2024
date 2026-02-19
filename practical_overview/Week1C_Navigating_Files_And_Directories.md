@@ -126,7 +126,7 @@ The `cd` command takes an argument which is a directory name. Directories can be
 
 Now enter the following command:
 
-    $ cd /srv/scratch/zID/data
+    $ cd /srv/scratch/<zID>/data
     
 
 These two commands have the same effect, they both take us to the `data` directory. The first uses the absolute path, giving the full address from the home directory. The second uses a relative path, giving only the address from the working directory. A full path always starts with a `/`. A relative path does not.
