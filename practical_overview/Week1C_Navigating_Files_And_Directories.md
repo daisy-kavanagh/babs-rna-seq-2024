@@ -37,18 +37,18 @@ We’ve learned how to use `pwd` to find our current location within our file sy
 
 Use the commands we’ve learned so far to navigate to the `data` directory, if you’re not already there.
 
-    $ cd /srv/scratch/zID
+    $ cd /srv/scratch/<zID>
     $ cd data
     
 
-What if we want to move back up and out of this directory and to our top level directory? Can we type `cd shell_data`? Try it and see what happens.
+What if we want to move back up and out of this directory and to our top level directory? Can we type `cd <zID>`? Try it and see what happens.
 
-    $ cd shell_data
+    $ cd <zID>
     
     -bash: cd: shell_data: No such file or directory
     
 
-Your computer looked for a directory or file called `shell_data` within the directory you were already in. It didn’t know you wanted to look at a directory level above the one you were located in.
+Your computer looked for a directory or file called `<zID>` within the directory you were already in. It didn’t know you wanted to look at a directory level above the one you were located in.
 
 We have a special command to tell the computer to move us back or up one directory level.
 
