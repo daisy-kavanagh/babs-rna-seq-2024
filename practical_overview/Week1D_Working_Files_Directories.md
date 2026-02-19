@@ -72,7 +72,8 @@ If you want to repeat a command that you’ve run recently, you can access previ
 A few more useful shortcuts:
 
 *   Ctrl+C will cancel the command you are writing, and give you a fresh prompt.
-*   Ctrl+R will do a reverse-search through your command history. This is very useful.
+*   up / down arrows cycle through your previously run commands.
+*   Ctrl+R will do a reverse-search through your command history. 
 *   Ctrl+L or the `clear` command will clear your screen.
 
 You can also review your recent commands with the `history` command, by entering:
