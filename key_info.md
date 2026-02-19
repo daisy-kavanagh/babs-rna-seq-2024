@@ -44,16 +44,16 @@ Welcome to the Bioinformatics Practical Handbook for BABS3291 Genes, Genome and 
 | 34 | z5592667   | Kanish       | Shrestha          |       7 | chr13_chr16 | Lupus                    | GSE72420    |
 | 35 | z5587877   | Marieta      | Van Der Merwe     |       7 | chr17_chr22 | Lupus                    | GSE72420    |
 | 36 | z5479075   | Mason        | Bicknell-Cattell  |       7 | chrX        | Lupus                    | GSE72420  |
-| 36 | z5682064   | Austin       | Budiada           |       8 | chr1_chr3 | Lymphoma                 | GSE159808   |
-| 37 | z5533298   | Jinyi        | He                |       8 | chr4_chr7 | Lymphoma                 | GSE159808   |
-| 38 | z5421680   | Emaan        | Khurram           |       8 | chr8_chr12 | Lymphoma                 | GSE159808   |
-| 39 | z5365331   | Swetha       | Ravichandran      |       8 | chr13_chr16 | Lymphoma                 | GSE159808   |
-| 40 | z5531357   | Zhenhan        | Li           |       8 | chr17_chr22 | Lymphoma                 | GSE159808   |
-| 41 | z5510380   | Ezra Harvey        | Pongarrang            |       9 | chr1_chr3 | Myelodysplastic syndrome | GSE65349    |
-| 42 | z5585939   | George       | Koura             |       9 | chr4_chr7 | Myelodysplastic syndrome | GSE65349    |
-| 43 | z5594725   | Pearl        | Nguyen            |       9 | chr8_chr12 | Myelodysplastic syndrome | GSE65349    |
-| 44 | z5481464   | Roja         | Sivapragasam      |       9 | chr13_chr16 | Myelodysplastic syndrome | GSE65349    |
-| 45 | z5588459   | Lucy         | Solina            |       9 | chr17_chr22 | Myelodysplastic syndrome | GSE65349    |
+| 37 | z5682064   | Austin       | Budiada           |       8 | chr1_chr3 | Lymphoma                 | GSE159808   |
+| 38 | z5533298   | Jinyi        | He                |       8 | chr4_chr7 | Lymphoma                 | GSE159808   |
+| 39 | z5421680   | Emaan        | Khurram           |       8 | chr8_chr12 | Lymphoma                 | GSE159808   |
+| 40 | z5365331   | Swetha       | Ravichandran      |       8 | chr13_chr16 | Lymphoma                 | GSE159808   |
+| 41 | z5531357   | Zhenhan        | Li           |       8 | chr17_chr22 | Lymphoma                 | GSE159808   |
+| 42 | z5510380   | Ezra Harvey        | Pongarrang            |       9 | chr1_chr3 | Myelodysplastic syndrome | GSE65349    |
+| 43 | z5585939   | George       | Koura             |       9 | chr4_chr7 | Myelodysplastic syndrome | GSE65349    |
+| 44 | z5594725   | Pearl        | Nguyen            |       9 | chr8_chr12 | Myelodysplastic syndrome | GSE65349    |
+| 45 | z5481464   | Roja         | Sivapragasam      |       9 | chr13_chr16 | Myelodysplastic syndrome | GSE65349    |
+| 46 | z5588459   | Lucy         | Solina            |       9 | chr17_chr22 | Myelodysplastic syndrome | GSE65349    |
 
 
 
