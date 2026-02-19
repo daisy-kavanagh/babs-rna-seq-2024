@@ -109,7 +109,8 @@ Please use a code editor like **VS Codes** to write your notes and code. This ca
 
 ### Optional Cheatsheet for you to fill out
 If you would like to fill out a cheatsheet for every command that you use and learn, please access the file on teams or 
-[Download the cheatsheet](https://github.com/<OWNER>/<REPO>/raw/gh-pages/assets/Unix_Cheatsheet.docx)
+[Download the cheatsheet](https://github.com/daisy-kavanagh/babs-rna-seq-2026/raw/gh-pages/assets/Unix_Cheatsheet.docx)
+
 
 
 
