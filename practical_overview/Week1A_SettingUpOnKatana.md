@@ -109,10 +109,7 @@ Please use a code editor like **VS Codes** to write your notes and code. This ca
 
 ### Optional Cheatsheet for you to fill out
 If you would like to fill out a cheatsheet for every command that you use and learn, please access the file on teams or 
-
-<a href="{{ '/assets/Unix_Cheatsheet.docx' | relative_url }}" download>
-  here
-</a>.
+<a href="../assets/Unix_Cheatsheet.docx" download>here</a>.
 
 
 
