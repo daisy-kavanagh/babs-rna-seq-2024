@@ -43,6 +43,7 @@ Welcome to the Bioinformatics Practical Handbook for BABS3291 Genes, Genome and 
 | 33 | z5486777  | Yinyi     | Zhang       |       7 | chr8_chr12 | Lupus                    | GSE72420    |
 | 34 | z5592667   | Kanish       | Shrestha          |       7 | chr13_chr16 | Lupus                    | GSE72420    |
 | 35 | z5587877   | Marieta      | Van Der Merwe     |       7 | chr17_chr22 | Lupus                    | GSE72420    |
+| 36 | z5479075   | Mason        | Bicknell-Cattell  |       7 | chrX        | Lupus                    | GSE72420  |
 | 36 | z5682064   | Austin       | Budiada           |       8 | chr1_chr3 | Lymphoma                 | GSE159808   |
 | 37 | z5533298   | Jinyi        | He                |       8 | chr4_chr7 | Lymphoma                 | GSE159808   |
 | 38 | z5421680   | Emaan        | Khurram           |       8 | chr8_chr12 | Lymphoma                 | GSE159808   |
