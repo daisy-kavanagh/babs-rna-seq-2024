@@ -12,7 +12,7 @@ Welcome to the Bioinformatics Practical Handbook for BABS3291 Genes, Genome and 
 |  2 | z5418243   | Jason        | Duong             |       1 | chr4_chr7 | Neuroblastoma            | GSE202634   |
 |  3 | z5506516   | Shengjie       | Xu           |       1 | chr8_chr12 | Neuroblastoma            | GSE202634   |
 |  4 | z5592866   | Jessie       | Zhuang            |       1 | chr13_chr16 | Neuroblastoma            | GSE202634   |
-| 5 | z5691265 | Yik Lam Kristy  | 1 | chr17_chr22 | Neuroblastoma            | GSE202634   |
+| 5 | z5691265 | Yik Lam  | Kristy | 1 | chr17_chr22 | Neuroblastoma            | GSE202634   |
 |  6 | z5361557   | Sohaib       | Ansar             |       2 | chr1_chr3 | Parkinson's Disease      | GSE125239   |
 |  7 | z5487895   | Ethan        | Chan              |       2 | chr4_chr7 | Parkinson's Disease      | GSE125239   |
 |  8 | z5588722   | Summer       | Cunio-Scarborough |       2 | chr8_chr12 | Parkinson's Disease      | GSE125239   |
