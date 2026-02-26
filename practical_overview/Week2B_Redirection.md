@@ -196,7 +196,7 @@ None of the command line programs we’ve been learning do anything all that imp
 > File manipulation and more practices with pipes
 > ===============================================
 > 
-> To practice a bit more with the tools we’ve added to our tool kit so far and learn a few extra ones you can follow [this extra lesson](https://datacarpentry.org/shell-genomics/Extra_lesson/index.html) which uses the SRA metadata file.
+> To practice a bit more with the tools we’ve added to our tool kit so far and learn a few extra ones you can follow [this extra lesson](https://datacarpentry.github.io/shell-genomics/Extra_lesson.html) which uses the SRA metadata file.
 
 Writing for loops
 -----------------
