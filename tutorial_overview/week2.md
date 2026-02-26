@@ -8,7 +8,7 @@ Week 2 - Practical
 
 Please find your [groups](https://daisy-kavanagh.github.io/babs-rna-seq-2026/key_info/) again .
 
-Each group is paired up with a [dataset](https://daisy-kavanagh.io/babs-rna-seq-2026/practical_overview/sample_datasets/) eg. Group 1 will be doing neuroblastomas. 
+Each group is paired up with a [dataset](https://daisy-kavanagh.github.io/babs-rna-seq-2026/practical_overview/sample_datasets/) eg. Group 1 will be doing neuroblastomas. 
 
 The key resources to structure your presentation includes:
 - presentation template
