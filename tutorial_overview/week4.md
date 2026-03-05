@@ -5,5 +5,9 @@ title: Week 4 - The complexity of the genome (John Matticl)
 Week 4 - The complexity of the genome (John Mattick)
 =====================
 
-John Mattick will be delivering a talk and you can ask questions.
+
+Please find the profile about [John Mattick](https://www.unsw.edu.au/staff/john-mattick). He is renowned for his work assigning functions to non-coding RNAs. 
+
+- Lectures on other non-coding parts of the genome include Retrotransposons and Transcriptional Heterogeneity
+- Other additional reading includes his review on [lncRNAs](https://www.nature.com/articles/nrg2521) **Mercer et al.**
 
