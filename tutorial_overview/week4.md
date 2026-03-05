@@ -1,19 +1,9 @@
 ---
 layout: page
-title: Week 4 - Finish the Trimming Practical and Structuring your Bioinformatic Report 
----
+title: Week 4 - The complexity of the genome (John Matticl)
 
-Week 4 - Report
+Week 4 - The complexity of the genome (John Mattick)
 =====================
 
-The structure of today's session is to:
+John Mattick will be delivering a talk and you can ask questions.
 
-1. To reflect on our technical understanding of trimmomatic from yesterday's practical.
-2. Read through what is expected for your bioinformatics report.
-   - Quick 5 minute presentation on "Explaining your Science Story"
-4. Understanding what has been trimmed or removed from your original fastq files.
-5. Extension task using the end of Week 3:
-     - Run `multiqc` to combine all the file QC into one html file
-     - Rerun `fastqc` on your new trimmed files 
-
-   **Ask any and all your questions!**
