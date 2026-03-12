@@ -206,7 +206,12 @@ This command will take a few minutes to run.
                   ILLUMINACLIP:${ADAPTERSEQ}:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36     
                   
     
-    
+
+
+
+
+
+ 
 > Exercise
 > --------
 > 
@@ -279,6 +284,61 @@ If you have a paired end sequence, the for loop will be different...
     > done
 
 
+
+The disadvantage of running an interactive job with qsub -I is that you are going to have to keep your laptop open and stay connected to the internet the whole time that its running. A way to get around this is submitting a script to the cluster non-interactively. Only do this if you couldn't get the above interactive loop to finish. Recall in week two we learned how to use the text editor nano to write a script. Lets call it trimmomatic_loop.sh.
+
+```
+nano trimmomatic_loop.sh
+```
+This will open the text editor nano.
+Inside this we must first start with the information about the job requirements we are telling the cluster. Then have all the code that you wish to run.
+
+For single end:
+
+```
+#!/bin/bash
+#PBS -l select=1:ncpus=1:mem=4gb
+#PBS -l walltime=12:00:00
+
+cd /srv/scratch/zID/babs3291/untrimmed_fastq
+rm *trim*
+module load trimmomatic
+ADAPTERSEQ="/srv/scratch/zID/babs3291/adapters/TruSeq3-SE.fa"
+
+for infile in *.fastq.gz
+do
+base=$(basename ${infile} .fastq.gz)
+outfile="${base}.trimmed.fastq.gz"
+trimmomatic SE -phred33 ${infile} \
+${outfile} \
+ILLUMINACLIP:${ADAPTERSEQ}:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36 
+done
+```
+
+For paired end:
+```
+#!/bin/bash
+#PBS -l select=1:ncpus=1:mem=4gb
+#PBS -l walltime=12:00:00
+
+cd /srv/scratch/zID/babs3291/untrimmed_fastq
+rm *trim*
+module load trimmomatic
+ADAPTER_SEQ="/srv/scratch/zID/babs3291/adapters/TruSeq3-PE-2.fa"
+for infile in *_1.fastq.gz
+do
+base=$(basename ${infile} _1.fastq.gz)
+infile_2="${base}_2.fastq.gz"
+trimmed_1="${base}_1.trimmed.fastq.gz"
+trimmed_2="${base}_2.trimmed.fastq.gz"
+untrimmed_1="${base}_1.untrimmed.fastq.gz"
+untrimmed_2="${base}_2.untrimmed.fastq.gz"
+trimmomatic PE -phred33 -threads 4 ${infile} ${infile_2} \
+${trimmed_1} ${untrimmed_1} \
+${trimmed_2} ${untrimmed_2} \
+ILLUMINACLIP:${ADAPTER_SEQ}:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36  
+done
+```
 
     
 > Exercise
