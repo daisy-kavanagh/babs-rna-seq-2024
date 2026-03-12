@@ -285,6 +285,8 @@ If you have a paired end sequence, the for loop will be different...
 
 
 
+Running Job Non-Interactively
+==============
 The disadvantage of running an interactive job with qsub -I is that you are going to have to keep your laptop open and stay connected to the internet the whole time that its running. A way to get around this is submitting a script to the cluster non-interactively. Only do this if you couldn't get the above interactive loop to finish. Recall in week two we learned how to use the text editor nano to write a script. Lets call it trimmomatic_loop.sh.
 
 ```
@@ -340,6 +342,19 @@ ILLUMINACLIP:${ADAPTER_SEQ}:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINL
 done
 ```
 
+After you finish writing the script you can press ctrl+o to save it and ctrl+x to exit the text editor nano. 
+
+Next we can submit the job with:
+```
+qsub trimmomatic_loop.sh
+```
+
+You can monitor your job with the qstat command. If the status is Q it means it is waiting in the queue. If it is R it means it is running. 
+If nothing shows up when you use qstat then the job is either finished or had an error.
+If you want to see if the job finished successfully or had an error, you can view the log file. Logfiles on katana are formatted like <job_id>.kman.restech.unsw.edu.au.OU. If you navigate to the directory where you submitted the job you should see a file or multiple files with this format. You can ls -lh to see them and their date/time of creation. Most often its the most recent one you are interested in. You can view its contents with the cat command e.g
+```
+cat <job_id>.kman.restech.unsw.edu.au.OU
+```
     
 > Exercise
 > --------
