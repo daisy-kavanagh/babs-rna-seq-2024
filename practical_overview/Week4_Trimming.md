@@ -290,7 +290,7 @@ Running Job Non-Interactively
 The disadvantage of running an interactive job with qsub -I is that you are going to have to keep your laptop open and stay connected to the internet the whole time that its running. A way to get around this is submitting a script to the cluster non-interactively. Only do this if you couldn't get the above interactive loop to finish. Recall in week two we learned how to use the text editor nano to write a script. Lets call it trimmomatic_loop.sh.
 
 ```
-nano trimmomatic_loop.sh
+nano Trimmomatic_loop.sh
 ```
 This will open the text editor nano.
 Inside this we must first start with the information about the job requirements we are telling the cluster. Then have all the code that you wish to run.
@@ -346,7 +346,7 @@ After you finish writing the script you can press ctrl+o to save it and ctrl+x t
 
 Next we can submit the job with:
 ```
-qsub trimmomatic_loop.sh
+qsub Trimmomatic_loop.sh
 ```
 
 You can monitor your job with the qstat command. If the status is Q it means it is waiting in the queue. If it is R it means it is running. 
