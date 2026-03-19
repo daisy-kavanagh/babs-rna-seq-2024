@@ -175,6 +175,7 @@ This command will take a few minutes to run.
 
     $ qsub -I
     $ cd /srv/scratch/zID/babs3291/untrimmed_fastq
+    $ module load trimmomatic
     $ ADAPTERSEQ="/srv/scratch/zID/babs3291/adapters/TruSeq3-SE.fa"
    
     $ trimmomatic SE -phred33 Adapter_SRR306844chr1_chr3.fastq.gz \
@@ -199,6 +200,7 @@ This command will take a few minutes to run.
     
      $ qsub -I
      $ cd /srv/scratch/zID/babs3291/untrimmed_fastq
+     $ module load trimmomatic
      $ ADAPTERSEQ="/srv/scratch/zID/babs3291/adapters/TruSeq3-PE-2.fa"
      $ trimmomatic PE -threads 4 EXAMPLE_1.fastq.gz EXAMPLE_2.fastq.gz  \
                   EXAMPLE_1.trimmed.fastq.gz EXAMPLE_1un.trimmed.fastq.gz \
