@@ -22,7 +22,7 @@ author: Daisy Kavanagh
 navbar-links:
   Practical Report Roadmap: "roadmap"
   Course Structure: "course_structure"
-  Practical W1-5:
+  Practicals:
     - Sample Datasets: "practical_overview/sample_datasets"
     - Week 1A Setting Up on Katana: "practical_overview/Week1A_SettingUpOnKatana"
     - Week 1B Introducing the Shell: "practical_overview/Week1B_Introducing_the_Shell"
@@ -34,8 +34,11 @@ navbar-links:
     - Week 3 Using FASTQC For Data Quality Report: "practical_overview/Week3_FASTQC"
     - Week 4 Using Trimmomatic for Trimming and Filtering: "practical_overview/Week4_Trimming"
     - Week 5 Alignment with Kallisto: "practical_overview/Week5_Alignment"
+    - Week 7A Using DEGUST for Differential Expression Analysis: "practical_overview/Week7A_Differential_Expression"
+    - Week 7B Explaining Differential Expression Summary: "practical_overview/Week7B_Explaining_DE"
+    - Week 7C Understanding the Theory Behind Differential Expression Analysis: "practical_overview/Week7C_QC_GO"
 
-  Practical W6-10:
+  # Practical W6-10: 
     # - Week 6 Flexibility Week: "practical_overview/flex_week"
     # - Week 7 Using Kallisto for Pseudoalignment: "practical_overview/Week7_Alignment"
     # - Week 8A Using DEGUST for Differential Expression Analysis: "practical_overview/Week8A_Differential_Expression"
