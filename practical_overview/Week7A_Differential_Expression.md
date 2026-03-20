@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Week 8A - Differential Expression Analysis
+title: Week 7A - Differential Expression Analysis
 ---
 
-Week 8A - Differential gene expression (DGE) analysis
+Week 7A - Differential gene expression (DGE) analysis
 ====================================================
 
 > Overview
