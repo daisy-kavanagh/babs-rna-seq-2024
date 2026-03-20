@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Week 8B - Theory of Differential gene expression (DGE) analysis
+title: Week 7B - Theory of Differential gene expression (DGE) analysis
 ---
 
- Week 8B - Theory of Differential gene expression (DGE) analysis
+ Week 7B - Theory of Differential gene expression (DGE) analysis
 =====================================================================================================
 
 
