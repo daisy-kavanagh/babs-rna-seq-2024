@@ -1,36 +1,57 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-echo "This script concatenates all abundance tsv to form a count matrix table"
-echo "*** Please be in the main directory which contains /samplename/abundance.tsv****"
-#echo "read in all abundance tsv files"
-abundance_tsv=`ls */abundance.tsv`
+# Find abundance.tsv files one directory below the current directory
+mapfile -t abundance_tsv < <(find . -mindepth 2 -maxdepth 2 -type f -name abundance.tsv | sort)
 
+# Check that we found something
+if [ "${#abundance_tsv[@]}" -eq 0 ]; then
+    echo "Error: no abundance.tsv files found in subdirectories." >&2
+    exit 1
+fi
 
-#echo "concatenate them"
-#first create a concatenated file
-paste -d' ' ${abundance_tsv} | awk 'NR>1' | awk '{for(i=5;i<=101;i+=5) printf "%s ",$i ;for(i=102;i<=119;i++) {printf "%s ",$i} ;print ""}' > .counts_only.tsv
+# Use the first file to get transcript IDs
+first_abundance_tsv="${abundance_tsv[0]}"
 
-#get the first abundance file 
-first_abundance_tsv=`echo ${abundance_tsv} | cut --delimiter " " --fields 1`
+# Extract transcript IDs from first file, skipping header
+awk 'NR > 1 {print $1}' "$first_abundance_tsv" > .transcript_id.tsv
 
-#get transcript names
-cat ${first_abundance_tsv} | awk 'NR>1' |  awk '{print $1}' > .transcript_id.tsv 
+# Paste all abundance files side by side, skip header row,
+# and extract column 4 of each 5-column block (= est_counts)
+paste "${abundance_tsv[@]}" | \
+awk 'NR > 1 {
+    for (i = 4; i <= NF; i += 5) {
+        printf "%s", $i
+        if (i + 5 <= NF) {
+            printf "\t"
+        }
+    }
+    printf "\n"
+}' > .counts_only.tsv
 
-#paste together transcript id and counts table
-paste -d " " .transcript_id.tsv .counts_only.tsv  > .transcript_counts_raw.tsv
+# Combine transcript IDs with counts
+paste .transcript_id.tsv .counts_only.tsv > .transcript_counts_raw.tsv
 
-#get the header name 
-header="transcripts `ls -d *chr*/ | sed 's|/||g'` "
+# Build header from parent directory names of abundance.tsv files
+header="transcripts"
+for f in "${abundance_tsv[@]}"; do
+    sample_name="$(basename "$(dirname "$f")")"
+    header="${header},${sample_name}"
+done
 
-#add to final file
-echo  ${header} > transcript_counts.csv
+# Write final CSV
+{
+    echo "$header"
+    awk 'BEGIN{OFS=","} {
+        for (i = 1; i <= NF; i++) {
+            printf "%s", $i
+            if (i < NF) {
+                printf ","
+            }
+        }
+        printf "\n"
+    }' .transcript_counts_raw.tsv
+} > transcript_counts.csv
 
-#add the transcript counts file to final oupit
-cat .transcript_counts_raw.tsv  | tail -n+2>> transcript_counts.csv
-
-#reformatting
-sed -e 's/\s\+/,/g' transcript_counts.csv > .transcript_counts.new.tsv
-sed '2,$s/.$//' .transcript_counts.new.tsv > transcript_counts.csv 
-
-rm .transcript_counts_raw.tsv .counts_only.tsv .transcript_id.tsv .transcript_counts.new.tsv
-
+# Clean up
+rm -f .transcript_id.tsv .counts_only.tsv .transcript_counts_raw.tsv
